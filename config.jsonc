@@ -1,0 +1,20 @@
+{
+    // bar config
+    "layer": "top",
+    "position":"top",
+    "modules-left": [
+        "sway/workspaces",
+		"sway/mode"
+    ],
+    "modules-right": [
+        "clock",
+        "battery"
+    ],
+    "clock": {
+        "format": "{:%F %r}",
+        "interval": 1
+    }
+//  "battery"{
+//  
+//  } 
+}

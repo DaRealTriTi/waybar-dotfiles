@@ -1,0 +1,27 @@
+* {
+    font-family: FontAwesome, Monocraft;
+    font-size: 11pt;
+    padding: 0 0;
+}
+window#waybar {
+    background-color: #323232;   
+    color: white
+}
+#workspaces button:hover {
+    box-shadow: none;
+    text-shadow: none;
+    transition: none;
+}
+#workspaces button {
+	color: #5c5c5c;
+    background: #000000;
+	border-radius: 0px;
+    border-color: black;
+    padding: 0 2px;
+}
+#workspaces button.focused {
+	background: #285577;
+	color: #fdf3e3;
+	border-color: #4c7899;
+}
+ 
